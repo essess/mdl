@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.61 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="mdl"/>
+    <comment>Mecrisp downloader</comment>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2018-02-16 21:53" user="sean" host="CHERNOBYL"/>
+  </section>
+  <section name="files">
+    <file name="mdl.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="b43e14a1b586b7cc928b06f1077bda5f"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="mdl.pb"/>
+      <outputfile value="mdl.exe"/>
+      <options unicode="1" debug="1"/>
+      <format exe="console" cpu="1"/>
+      <debugger custom="1" type="ide"/>
+      <warnings custom="1" type="ignore"/>
+    </target>
+  </section>
+</project>
